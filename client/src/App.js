@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './vendor/css/bootstrap.css';
 import Round from './admin/round';
+import RoundClosing from './admin/closing'
 
 function onImport() {
     console.log('waaaa!');
@@ -26,7 +27,12 @@ const App = () => (
       </div>
       <div className='container'>
         <div className='row'>
-            <Round onImportFromCommons={onImport} onActivateRound={onActivateRound}/>
+            <RoundClosing type='bool'
+                isPreviewed={true}
+                imagesCount={90}
+                uploadersCount={60}
+                isCompleted={true}
+                />
         </div>
       </div>
       </div>
