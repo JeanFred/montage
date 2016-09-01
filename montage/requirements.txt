@@ -1,0 +1,5 @@
+SQLAlchemy==1.0.14
+PyYAML==3.12
+clastic==0.4.3
+boltons==16.5.0
+mwoauth==0.2.8
